@@ -24,7 +24,7 @@ import EnvatoLicenseChecker from 'envato-license-checker';
 const EnvatoLicenseChecker = require('envato-license-checker');
 
 (async () => {
-    EnvatoLicenseChecker.setBearerToken('envato baerar token');
+    EnvatoLicenseChecker.setBearerToken('envato bearer token');
     ler result = await EnvatoLicenseChecker.check('license code');
     // result = false or Object (Purchase data)
 })();
