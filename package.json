@@ -1,22 +1,26 @@
 {
   "namespace": "beycandeveloper",
   "name": "envato-license-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A class where you can check the purchase code provided by envato so you can add a licensing system to your Envato products.",
-  "main": "./dist/envato-license-checker.js",
+  "browser": "dist/envato-license-checker.js",
+  "main": "envato-license-checker.js",
+  "module": "envato-license-checker.js",
+  "types": "envato-license-checker.d.ts",
+  "typings": "envato-license-checker.js",
   "prepublishOnly": "webpack --mode=production",
   "files": [
-    "dist"
+    "dist",
+    "envato-license-checker.js",
+    "envato-license-checker.d.ts"
   ],
   "scripts": {
     "build": "webpack --mode=production",
     "build-w": "webpack --watch --mode=development"
   },
   "keywords": [
-    "Blockchain",
-    "Ethereum token transfer",
-    "Binance smart chain",
-    "Cryptocurrency payment"
+    "Envato license checker",
+    "Envato products"
   ],
   "authors": [
     {
@@ -33,5 +37,19 @@
   "bugs": {
     "url": "https://github.com/BeycanDeveloper/envato-license-checker-js"
   },
-  "homepage": "https://github.com/BeycanDeveloper/envato-license-checker-js"
+  "homepage": "https://github.com/BeycanDeveloper/envato-license-checker-js",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.7",
+    "@babel/plugin-transform-modules-amd": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime": "^7.17.7",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  }
 }
