@@ -1,7 +1,7 @@
 {
   "namespace": "beycandeveloper",
   "name": "envato-license-checker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A class where you can check the purchase code provided by envato so you can add a licensing system to your Envato products.",
   "browser": "dist/envato-license-checker.js",
   "main": "envato-license-checker.js",

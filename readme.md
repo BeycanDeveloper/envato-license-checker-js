@@ -1,4 +1,4 @@
-# Clean plugin for webpack
+# Envato License Checker
 
 [![npm][npm-image]][npm-url]
 [![MIT License][mit-license-image]][mit-license-url]
