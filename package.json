@@ -1,0 +1,37 @@
+{
+  "namespace": "beycandeveloper",
+  "name": "envato-license-checker",
+  "version": "1.0.0",
+  "description": "A class where you can check the purchase code provided by envato so you can add a licensing system to your Envato products.",
+  "main": "./dist/envato-license-checker.js",
+  "prepublishOnly": "webpack --mode=production",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build-w": "webpack --watch --mode=development"
+  },
+  "keywords": [
+    "Blockchain",
+    "Ethereum token transfer",
+    "Binance smart chain",
+    "Cryptocurrency payment"
+  ],
+  "authors": [
+    {
+      "name": "Halil Beycan",
+      "email": "halilbeycan0@gmail.com",
+      "url": "https://github.com/BeycanDeveloper"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeycanDeveloper/envato-license-checker-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BeycanDeveloper/envato-license-checker-js"
+  },
+  "homepage": "https://github.com/BeycanDeveloper/envato-license-checker-js"
+}
